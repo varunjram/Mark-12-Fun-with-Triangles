@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
-    <link rel="stylesheet" href=hypotenuse.css">
+    <link rel="stylesheet" href="hypotenuse.css">
 </head>
+
 <body>
 
     <nav>
@@ -16,17 +18,36 @@
         <a class="navpills" href="area.html">Area</a>
     </nav>
 
-    <h1>Calculate Hypotenuse</h1>
-    <label> a =  </label>
-    <input type="number" class="side-input">
-    <label> b =  </label>
-    <input type="number" class="side-input">
-    <button id="hypotenuse-btn">Calculate Hypotenuse</button>
-    <div id="output"></div>
+    <div class="row">
 
+        <div class="column dark-section">
+
+            <h1>🧮Calculate Hypotenuse🧮</h1>
+            <div id="output"></div>
+
+        </div>
+
+        <div class="column light-section">
+
+            <div class="form-input">
+                <label> a = </label>
+                <input type="number" class="side-input">
+
+            </div>
+            <div class="form-input">
+                <label> b = </label>
+                <input type="number" class="side-input">
+            </div>
+            <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+
+
+        </div>
+
+    </div>
 
 
     <script src="hypotenuse.js"></script>
 
 </body>
+
 </html>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area</title>
+
+    <link rel="stylesheet" href="area.css">
 </head>
+
 <body>
     <nav>
         <a class="navpills" href="/index.html">Is Triangle📐</a>
@@ -14,28 +18,51 @@
         <a class="navpills" href="area.html">Area</a>
     </nav>
 
-    <h1>Check the are of Triangle</h1>
-
     <p>Area of Triangle = 1/2(Base*Height)</p>
 
-    <label for="base">Base(in cm)</label>
 
-    <input type="number" class="base-height"/>
+
+    <div class="row">
+
+        <div class="column light-section">
+
+            <div class="form-input">
+
+                <label for="base">Base(in cm)</label>
+
+                <input type="number" class="base-height" />
+
+            </div>
+            <div class="form-input">
+
+                <label for="height">Height(in cm)</label>
+
+                <input type="number" class="base-height" />
+
+                <button id="check-area">Check Area</button>
+             </div> 
+                    
+            <div class="column dark-section">
+
+                <h1>Check the area of Triangle</h1>
+                <div id="output"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
     
-    <label for="height">Height(in cm)</label>
-
-    <input type="number" class="base-height"/>
-
-    <button id="check-area">Check Area</button>
-
-    <div id="output"></div>
-
-
 
     <script src="area.js"></script>
 
 
 
-    
+
 </body>
+
 </html>
