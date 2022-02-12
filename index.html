@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with Triangles 📐🍕</title>
+    <link rel="stylesheet" href="istriangle.css">
 </head>
-<body>
-    <h1>Is Traiangle📐🍕</h1>
-    <label for="angle1">Angle 1</label>
-    <input type="number" class="angle-input">
-    <label for="angle2">Angle 2</label>
-    <input type="number" class="angle-input"> 
-    <label for="angle3">Angle 3</label>
-    <input type="number" class="angle-input"> 
-    <button id="is-triangle-btn">Is Triangle</button>
 
-    <div id="output"></div>
+<body>
+
+    <nav>
+        <a class="navpills" href="/index.html">Is Triangle📐</a>
+        <a class="navpills" href="/quiz.html">Quiz</a>
+        <a class="navpills" href="/hypotenuse.html">Hypotenuse</a>
+        <a class="navpills" href="area.html">Area</a>
+    </nav>
+
+    <div class="row">
+        <div class="column , dark-section">
+            <h1>🍕Is Traiangle📐</h1>
+
+            <div id="output"></div>
+
+            <!-- <img src="/images/white-deer.jpg"> -->
+        </div>
+        <div class="column light-section">
+
+            <div class="form-input">
+                <label for="angle1">Angle 1</label>
+                <input type="number" class="angle-input">
+            </div>
+            <div class="form-input">
+                <label for="angle2">Angle 2</label>
+                <input type="number" class="angle-input">
+            </div>
+            <div class="form-input">
+
+                <label for="angle3">Angle 3</label>
+                <input type="number" class="angle-input">
+
+            </div>
+
+            <button id="is-triangle-btn">Is Triangle</button>
+            
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
+
 </html>
