@@ -1,65 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&display=swap");
 
 body {
-
-    font-family: 'Pacifico', sans-serif;
-    background-color: aquamarine;
+  font-family: "Pacifico", sans-serif;
+  background-color: aquamarine;
 }
 
 :root {
-
-    --light-color: #FCFCFD;
-    --primary-color: #494F56; 
-    /* --primary-color: #D4D5D9; */
-
+  --light-color: #fcfcfd;
+  --primary-color: #494f56;
+  /* --primary-color: #D4D5D9; */
 }
 
 nav {
-    padding: 1rem;
-    font-size: 25px;
-    text-align:right
-
+  padding: 1rem;
+  font-size: 25px;
+  text-align: right;
 }
 
 .navpills {
-    padding: 8px;
-    text-decoration: none;
+  padding: 8px;
+  text-decoration: none;
 }
 
 .question-container {
-
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
-label{
-    display: block;
+label {
+  display: block;
 }
 
 #submit-answer-btn {
-    display: block;
-    margin: auto;
-    margin-top: 1rem;
-    background: transparent;
-    border: solid;
-    color: var(--prmary-green);
-    border-color: var(--prmary-green);
-    border-width: medium;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: large;
-    cursor: pointer;
-  }
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background: transparent;
+  border: solid;
+  color: var(--prmary-green);
+  border-color: var(--prmary-green);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+}
 
+#output {
+  font-size: 25px;
+  text-align: center;
 
-  #output {
+  color: #142821;
+}
 
-    font-size: 25px;
-    text-align: center;
-
-    color: #142821;
-
-    #092
-  }
-
-  #7FFFD4
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 5rem;
+  padding-inline-start: 0px;
+}

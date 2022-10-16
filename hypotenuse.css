@@ -1,105 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&display=swap");
 
 body {
-
-    font-family: 'Pacifico', sans-serif;
-    background-color: aquamarine;
+  font-family: "Pacifico", sans-serif;
+  background-color: aquamarine;
 }
 
 :root {
-
-    --light-color: #FCFCFD;
-    --primary-color: #494F56; 
-    /* --primary-color: #D4D5D9; */
-
+  --light-color: #fcfcfd;
+  --primary-color: #494f56;
+  /* --primary-color: #D4D5D9; */
 }
 
 nav {
-    padding: 1rem;
-    font-size: 25px;
-    text-align:right
-
+  padding: 1rem;
+  font-size: 25px;
+  text-align: right;
 }
 
 h1 {
-    /* line-height: 400px; */
-    /* height: 100px; */
-    /* text-align: center; */
+  /* line-height: 400px; */
+  /* height: 100px; */
+  /* text-align: center; */
 
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .navpills {
-    padding: 8px;
-    text-decoration: none;
+  padding: 8px;
+  text-decoration: none;
 }
 
-
-
-
 .row {
-    display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top:10px;
-    border: 20px solid gray;
-    border-radius: 50px;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  border: 20px solid gray;
+  border-radius: 50px;
+  height: 65vh;
 }
 
 .column {
-
-    flex-grow: 1;
-
+  flex-grow: 1;
 }
 
 .light-section {
-
-    background-color: var(--light-color);
-    height: 61.55vh;
-    padding-top: 5rem;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    overflow: auto;
+  background-color: var(--light-color);
+  height: auto
+  padding-top: 5rem;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: auto;
 }
 
-
 .dark-section {
-
-    background-color: var(--primary-color);
-    height: 72.8vh;
-    color:  lightgrey;
-    text-align: center;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-
+  background-color: var(--primary-color);
+  height: auto;
+  color: lightgrey;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .form-input {
-
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding: 1.5rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 #hypotenuse-btn {
-    display: block;
-    margin: auto;
-    margin-top: 1rem;
-    background: transparent;
-    border: solid;
-    color: var(--prmary-green);
-    border-color: var(--prmary-green);
-    border-width: medium;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: large;
-    cursor: pointer;
-  }
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background: transparent;
+  border: solid;
+  color: var(--prmary-green);
+  border-color: var(--prmary-green);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+}
 
+#output {
+  font-size: 25px;
+}
 
-  #output {
-
-    font-size: 25px;
-
-  }
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-inline-start: 0px;
+}
