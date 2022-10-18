@@ -1,79 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Quizapp</title>
-    <link rel="stylesheet" href="quiz.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="quiz.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <a class="navpills" href="/index.html">Is Triangle📐</a>
-        <a class="navpills" href="/quiz.html">Quiz</a>
-        <a class="navpills" href="/hypotenuse.html">Hypotenuse</a>
-        <a class="navpills" href="area.html">Area</a>
+      <a
+        class="navpills"
+        href="/index.html"
+        >Is Triangle📐</a
+      >
+      <a
+        class="navpills"
+        href="/quiz.html"
+        >Quiz</a
+      >
+      <a
+        class="navpills"
+        href="/hypotenuse.html"
+        >Hypotenuse</a
+      >
+      <a
+        class="navpills"
+        href="area.html"
+        >Area</a
+      >
     </nav>
 
     <h1>Triangle Quiz</h1>
 
     <form class="quiz-form">
-        <div class="question-container">
-            <p>
-                1.What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
-                <label><input type="radio" name="question" value="45°">45°</label>
-                <label><input type="radio" name="question" value="60°">60°</label>
-                <label><input type="radio" name="question" value="90°">90°</label>
+      <div class="question-container">
+        <p>
+          1.What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+          <label
+            ><input
+              type="radio"
+              name="question"
+              value="45°" />45°</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question"
+              value="60°" />60°</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question"
+              value="90°" />90°</label
+          >
+        </p>
+      </div>
+      <div class="question-container">
+        <p>
+          2. If a triangle has an angle of 90 degrees, what is it called?
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="obtuse" />obtuse</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="acute" />acute</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="right angled" />right angled</label
+          >
+        </p>
+      </div>
 
-            </p>
-        </div>
-        <div class="question-container">
-            <p>
-               2. If a triangle has an angle of 90 degrees, what is it called?
-                <label><input type="radio" name="question2" value="obtuse">obtuse</label>
-                <label><input type="radio" name="question2" value="acute">acute</label>
-                <label><input type="radio" name="question2" value="right angled">right angled</label>
-            </p>
-        </div>
+      <!-- <button id="submit-answer-btn">Submit Answer</button> -->
 
-        <!-- <button id="submit-answer-btn">Submit Answer</button> -->
-
-        <div id="output"></div>
-
-
+      <div id="output"></div>
     </form>
 
     <button id="submit-answer-btn">Submit Answer</button>
 
     <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
-            <a class="link" target="_blank" href="https://github.com/varunjram ">
-                <img src="https://img.icons8.com/wired/64/000000/github.png"/>
-            </a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link " target="_blank" href="https://twitter.com/66Varun">
-                <img src="https://img.icons8.com/wired/64/000000/twitter-squared--v1.png"/>
-            </a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link " target="_blank" href="https://www.linkedin.com/in/vjram66/">
-                <img src="https://img.icons8.com/wired/64/000000/linkedin--v1.png"/>
-            </a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link " target="_blank" href="https://www.linkedin.com/in/vjram66/">
-                <img src="https://img.icons8.com/wired/64/000000/instagram-new--v1.png"/>
-            </a>
-        </li>
+      <li class="list-item-inline">
+        <a
+          class="link"
+          target="_blank"
+          href="https://github.com/varunjram ">
+          <img src="https://img.icons8.com/wired/64/000000/github.png" />
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="link"
+          target="_blank"
+          href="https://twitter.com/66Varun">
+          <img src="https://img.icons8.com/wired/64/000000/twitter-squared--v1.png" />
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="link"
+          target="_blank"
+          href="https://www.linkedin.com/in/vjram66/">
+          <img src="https://img.icons8.com/wired/64/000000/linkedin--v1.png" />
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="link"
+          target="_blank"
+          href="https://www.instagram.com/varun_jram/">
+          <img src="https://img.icons8.com/wired/64/000000/instagram-new--v1.png" />
+        </a>
+      </li>
     </ul>
 
     <script src="quiz.js"></script>
-
-
-</body>
-
+  </body>
 </html>
