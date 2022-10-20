@@ -1,32 +1,24 @@
 const sidesInput = document.querySelectorAll(".side-input");
-const hypotenuseBtn = document.querySelector('#hypotenuse-btn');
-const outpitH1  = document.querySelector('#output');
+const hypotenuseBtn = document.querySelector("#hypotenuse-btn");
+const outpitH1 = document.querySelector("#output");
 
-
-
-function calculateSumOfSquares (a,b){
-
-    const sumOfSquares = a*a + b*b;
-
-    // console.log(sumOfSquares);
-
-    return sumOfSquares;
+function calculateSumOfSquares(a, b) {
+  const sumOfSquares = a * a + b * b;
+  return sumOfSquares;
 }
-
-
-
 
 function calculateHypotenuse() {
+  const [angle1, angle2] = [Number(sidesInput[0].value), Number(sidesInput[1].value)];
 
+  if (angle1 > 0 && angle2 > 0) {
+    const sumOfSquares = calculateSumOfSquares(angle1, angle2);
 
-    const sumOfSquares = calculateSumOfSquares (Number(sidesInput[0].value),Number(sidesInput[1].value))
-
-    const lengthOfHypotenuse = Math.sqrt(sumOfSquares)
-
-    console.log(lengthOfHypotenuse);
+    const lengthOfHypotenuse = Math.sqrt(sumOfSquares).toFixed(2);
 
     outpitH1.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse;
-
+  } else {
+    alert("Value entered must be greater than 0");
+  }
 }
 
-hypotenuseBtn.addEventListener('click' , calculateHypotenuse);
+hypotenuseBtn.addEventListener("click", calculateHypotenuse);
